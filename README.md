@@ -1,5 +1,7 @@
 # Task Management System
 
+This project aims to develop a web-based task management system to help users organize and monitor their tasks effectively. The system should feature user authentication and authorization, support CRUD operations for tasks, include application logging, and handle exceptions. Additionally, it should incorporate unit testing and integrate with a SQL database.
+
 ## Getting Started
 
 ## Table of Contents
@@ -19,8 +21,8 @@ Make sure you have the following installed on your machine:
 ## Backend Setup
 ### 1. Clone the repository:
 ```bash
-git clone [repo name]
-cd folder
+git clone https://github.com/Hamza042/Task-Management-System.git
+cd Task-Management-System/Backend/TaskManagement.Api
 ```
 
 ### 2. Configure the database:
@@ -56,7 +58,7 @@ The backend API will be available at `http://localhost:5068`
 ## Frontend Setup
 ### 1. Navigate to the frontend directory:
 ```bash
-cd ../../frontend
+cd Task-Management-System/Frontend/tms-app
 ```
 
 ### 2. Install dependencies:
@@ -67,7 +69,7 @@ npm install
 
 ### 3. Running the Frontend
 ```bash
-npm start
+npm run dev
 ```
 The frontend will be available at ` http://localhost:5173/`.
 
