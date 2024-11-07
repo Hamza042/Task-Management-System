@@ -1,0 +1,19 @@
+.react-calendar {
+    background-color: #363388; /* Background color */
+    color: orange; /* Dates in white */
+    
+  }
+  
+  .react-calendar__tile {
+    background: transparent; /* Remove default background */
+  }
+  
+  .react-calendar__tile--now {
+    background: #6C5569 !important; /* Current date background color */
+  }
+  
+  .react-calendar__tile--active {
+    background: #6C5569 !important; /* Active date background color */
+    color: white !important; /* Active date color */
+  }
+  
